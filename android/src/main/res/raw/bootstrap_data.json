@@ -1488,69 +1488,72 @@
 ], "partners": [], "sessions": [
     {
         "speakers": [],
-        "description": "Google I/O's much-anticipated kickoff event will make you among the first developers to see what we've been working on here at Google. If you're not joining us at Moscone, grab some popcorn, kick back and enjoy the show directly from your Android powered device.",
-        "photoUrl": "http://storage.googleapis.com/iosched-updater-dev.appspot.com/images/sessions/__w-200-400-600-800-1000__/__keynote__.jpg",
-        "url": "https://www.google.com/events/io",
-        "startTimestamp": "2014-06-25T16:00:00Z",
-        "title": "Keynote",
-        "youtubeUrl": "https://google.com/events/io",
-        "mainTag": "FLAG_KEYNOTE",
-        "endTimestamp": "2014-06-25T18:00:00Z",
-        "color": "#3f51b5",
-        "hashtag": "keynote",
-        "isLivestream": true,
-        "captionsUrl": "",
-        "id": "__keynote__",
-        "tags": ["FLAG_KEYNOTE"],
-        "room": "keynote"
-    },
-    {
-        "speakers": [],
-        "description": "SourceGraph is a code search and analytics engine that indexes the world of open source code. In this session we'll see how a small team used Go to build the service.",
-        "title": "Sourcegraph: A code search engine in Go",
-        "url": "https://www.google.com/events/io/schedule/session/5e5915de-0ce1-e311-b297-00155d5066d7",
-        "startTimestamp": "2014-06-25T22:10:00Z",
-        "tags": ["THEME_DEVELOP", "TYPE_BOXTALKS", "TOPIC_GO"],
-        "mainTag": "TOPIC_GO",
-        "id": "5e5915de-0ce1-e311-b297-00155d5066d7",
-        "color": "#2a56c6",
-        "room": "dddsandbox",
-        "hashtag": "go",
-        "isLivestream": false,
-        "endTimestamp": "2014-06-25T22:55:00Z",
-        "captionsUrl": ""
-    },
-    {
-        "speakers": [],
-        "description": "Build the best version of your app. Come learn tips and tricks for building truly great Android apps - get the most out of Android Studio\u2019s design tools, master the intricacies of Gradle, tune your client performance with procstats and systrace, simplify your backend with Google Play services, and more. Android experts will be on hand to tear down your app \u2026 and then rebuild it. We have the technology.",
-        "title": "SDK tools for performance",
-        "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
-        "startTimestamp": "2014-06-26T17:00:00Z",
-        "tags": ["TOPIC_ANDROID", "TOPIC_TOOLS", "TOPIC_PERFORMANCE", "THEME_DEVELOP", "TYPE_BOXTALKS"],
-        "mainTag": "TOPIC_ANDROID",
-        "id": "09dad573-bbe6-e311-b297-00155d5066d7",
-        "color": "#558b2f",
-        "room": "dddsandbox",
-        "hashtag": "android",
-        "isLivestream": false,
-        "endTimestamp": "2014-06-26T18:00:00Z",
-        "captionsUrl": ""
-    },
-    {
-        "speakers": [],
         "description": "이 시대가 내린 최고의 명강사",
         "title": "신들린 기타연주와 함께 우리 모두 합주",
-        "photoUrl": "http://image.ollehmusic.com/Y/IMAGE/MUSICBRUNCH/files/20120604/1627425926223.jpg",
+        "photoUrl": "http://th02.deviantart.net/fs71/PRE/f/2009/342/6/f/guitarist_and_railraod_3_by_JunKarlo.jpg",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
         "tags": ["TOPIC_MUSIC"],
         "mainTag": "TOPIC_MUSIC",
         "id": "09dad573-bbe6-e311-b297-00155d5066dl",
-        "color": "#558b2f",
+        "color": "#8e24aa",
         "room": "dddsandbox",
         "hashtag": "music",
         "isLivestream": false,
-        "endTimestamp": "2014-06-26T18:00:00Z",
+        "endTimestamp": "2014-06-30T18:00:00Z",
+        "captionsUrl": ""
+    },
+    {
+        "speakers": [],
+        "description": "평소 수학이 무섭고 어렵다고 생각하셨던 분들이 많다고 들었습니다. <br>저에게 딱 두 달만 과외 받으시면 그 생각이 달라지실 겁니다. ",
+        "title": "수학이 두려우신 분들 저에게 오세요",
+        "photoUrl": "http://1ta.co.kr/data/attach/201301/1_%EC%84%B8.png",
+        "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
+        "startTimestamp": "2014-06-26T17:00:00Z",
+        "tags": ["TOPIC_MATH"],
+        "mainTag": "TOPIC_MATH",
+        "id": "09dad573-bbe6-e311-b297-00155d5066dl1",
+        "color": "#558b2f",
+        "room": "dddsandbox",
+        "hashtag": "math",
+        "isLivestream": false,
+        "endTimestamp": "2014-06-29T18:00:00Z",
+        "captionsUrl": ""
+    },
+    {
+        "speakers": [],
+        "description": "원어민 과외 받으실 분 모집합니다. 철저하게 1:1 과외를 위주로 하며 개인 맞춤식 스터디로 확실한 회화력 향상을 보장합니다. <br>어렸을때부터 미국에서 살다 최근에 한국에 돌아왔기 때문에 누구보다 현지에서 쓰이는 미국 영어를 잘 알고 있습니다.",
+        "title": "요즘 대세는 회화입니다.",
+        "photoUrl": "http://www.britishcouncil.sg/sites/britishcouncil.sg/files/styles/bc-590x332/public/malaysia-screen_shot_2013-08-28_at_11.18.55_am.png",
+        "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
+        "startTimestamp": "2014-06-26T17:00:00Z",
+        "tags": ["TOPIC_ENG"],
+        "mainTag": "TOPIC_ENG",
+        "id": "09dad573-bbe6-e311-b297-00155d5066dl2",
+        "color": "#795548",
+        "room": "dddsandbox",
+        "hashtag": "eng",
+        "isLivestream": false,
+        "endTimestamp": "2014-06-27T18:00:00Z",
+        "captionsUrl": ""
+    },
+    {
+        "speakers": [],
+        "description": "중1-3 남학생3명<br>중1-2 여학생1명<br>고2-3 남학생1명 지도한 경험 있습니다.<br><br>수학은 산수능력 외에도 문제를 빠르게 읽고 필요한 내용을 추려서 식을 만들어내는 능력이 중요합니다.
+                     <br>이를 위해 국어독해능력과 과학적상식이 바탕이되어야 합니다. <br>그러므로 제가 강의하는 과목외는 EBS강의를 수강토록하여 전반적인 학업 신장이 이루어지도록 지도합니다.<br>
+                         함께 열심히 해봅시다. 저는 재미있고 친근하지만 무섭도록 업합니다.",
+        "title": "기초부터 차근차근 열심히 해봐요~",
+        "photoUrl": "http://www.pagodastar.com/asset/static/design/site/tutor/242219/main_668x488.png",
+        "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
+        "startTimestamp": "2014-06-26T17:00:00Z",
+        "tags": ["TOPIC_MATH"],
+        "mainTag": "TOPIC_MATH",
+        "id": "19dad573-bbe6-e311-b297-00155d5a66dl2",
+        "color": "#558b2f",
+        "room": "dddsandbox",
+        "hashtag": "math",
+        "isLivestream": false,
+        "endTimestamp": "2014-08-27T18:00:00Z",
         "captionsUrl": ""
     }
 ], "video_library": [
@@ -5005,58 +5008,30 @@
 ], "tags": [
     {
         "category": "TOPIC",
-        "name": "Tools",
-        "color": "#607d8b",
-        "abstract": "",
-        "tag": "TOPIC_TOOLS",
-        "original_id": "eea54986-3688-e311-84db-00155d5066d7",
-        "order_in_category": 13
-    },
-    {
-        "category": "TOPIC",
-        "name": "Cloud Services",
-        "color": "#0288d1",
-        "abstract": "",
-        "tag": "TOPIC_CLOUDSERVICES",
-        "original_id": "dc28355c-d3d0-e311-b297-00155d5066d7",
-        "hashtag": "Cloud",
-        "order_in_category": 3
-    },
-    {
-        "category": "TOPIC",
         "name": "음악",
-        "color": "#646464",
+        "color": "#8e24aa",
         "abstract": "",
         "tag": "TOPIC_MUSIC",
-        "original_id": "5820cc6e-fde0-e311-b297-00155d5066d7",
+        "original_id": "5820cc6e-fde0-e311-b297-00155d506wk7",
         "order_in_category": 0
     },
     {
         "category": "TOPIC",
-        "name": "Accessibility",
+        "name": "수학",
         "color": "#646464",
         "abstract": "",
-        "tag": "TOPIC_ACCESSIBILITY",
-        "original_id": "5820cc6e-fde0-e311-b297-00155d5066d7",
-        "order_in_category": 0
+        "tag": "TOPIC_MATH",
+        "original_id": "5820cc6e-fde0-e311-b297-00155ds106d7",
+        "order_in_category": 1
     },
     {
         "category": "TOPIC",
-        "name": "Go",
-        "color": "#2a56c6",
+        "name": "영어",
+        "color": "#646464",
         "abstract": "",
-        "tag": "TOPIC_GO",
-        "original_id": "84af5c68-fde0-e311-b297-00155d5066d7",
-        "order_in_category": 6
-    },
-    {
-        "category": "TOPIC",
-        "name": "Dart",
-        "color": "#00838f",
-        "abstract": "",
-        "tag": "TOPIC_DART",
-        "original_id": "82af5c68-fde0-e311-b297-00155d5066d7",
-        "order_in_category": 4
+        "tag": "TOPIC_ENG",
+        "original_id": "5820cc6e-fde0-e311-b297-00155d50v6d7",
+        "order_in_category": 2
     },
     {
         "category": "THEME",
@@ -5065,24 +5040,6 @@
         "tag": "THEME_DEVELOP",
         "original_id": "2ade1c01-8ed0-e311-b297-00155d5066d7",
         "order_in_category": 2
-    },
-    {
-        "category": "TOPIC",
-        "name": "Games",
-        "color": "#b93221",
-        "abstract": "",
-        "tag": "TOPIC_GAMES",
-        "original_id": "c899de92-3688-e311-84db-00155d5066d7",
-        "order_in_category": 5
-    },
-    {
-        "category": "TOPIC",
-        "name": "Polymer",
-        "color": "#673ab7",
-        "abstract": "",
-        "tag": "TOPIC_POLYMER",
-        "original_id": "a2320d3e-3788-e311-84db-00155d5066d7",
-        "order_in_category": 12
     },
     {
         "category": "THEME",
@@ -5193,33 +5150,5 @@
         "tag": "THEME_DISTRIBUTE",
         "original_id": "41335208-8ed0-e311-b297-00155d5066d7",
         "order_in_category": 3
-    },
-    {
-        "category": "TOPIC",
-        "name": "Android",
-        "color": "#558b2f",
-        "abstract": "",
-        "tag": "TOPIC_ANDROID",
-        "original_id": "c8e37a77-3688-e311-84db-00155d5066d7",
-        "order_in_category": 1
-    },
-    {
-        "category": "TOPIC",
-        "name": "Chrome / Web",
-        "color": "#3367d6",
-        "abstract": "",
-        "tag": "TOPIC_CHROME_WEB",
-        "original_id": "51ad7559-3788-e311-84db-00155d5066d7",
-        "hashtag": "Chrome",
-        "order_in_category": 2
-    },
-    {
-        "category": "TOPIC",
-        "name": "Media",
-        "color": "#ce4319",
-        "abstract": "",
-        "tag": "TOPIC_MEDIA",
-        "original_id": "aea61daf-3688-e311-84db-00155d5066d7",
-        "order_in_category": 9
     }
 ]}
