@@ -59,7 +59,7 @@ public class BrowseSessionsActivity extends BaseActivity implements SessionsFrag
 
     private int mMode = MODE_EXPLORE;
 
-    private final static String SCREEN_LABEL = "Explore";
+    private final static String SCREEN_LABEL = "kaka";
 
     private TagMetadata mTagMetadata = null;
     private boolean mSpinnerConfigured = false;
@@ -231,7 +231,8 @@ public class BrowseSessionsActivity extends BaseActivity implements SessionsFrag
         LOGD(TAG, "Configuring Action Bar spinner.");
         mSpinnerConfigured = true;
         mTopLevelSpinnerAdapter.clear();
-        mTopLevelSpinnerAdapter.addItem("", getString(R.string.all_sessions), false, 0);
+        mTopLevelSpinnerAdapter.addItem("", "없는 노래", false, 0);
+       /* mTopLevelSpinnerAdapter.addItem("", getString(R.string.all_sessions), false, 0);*/
 
         int itemToSelect = -1;
 
