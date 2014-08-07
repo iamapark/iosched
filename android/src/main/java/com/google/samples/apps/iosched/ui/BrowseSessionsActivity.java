@@ -231,7 +231,7 @@ public class BrowseSessionsActivity extends BaseActivity implements SessionsFrag
         LOGD(TAG, "Configuring Action Bar spinner.");
         mSpinnerConfigured = true;
         mTopLevelSpinnerAdapter.clear();
-        mTopLevelSpinnerAdapter.addItem("", "없는 노래", false, 0);
+        mTopLevelSpinnerAdapter.addItem("", "전체 과외", false, 0);
        /* mTopLevelSpinnerAdapter.addItem("", getString(R.string.all_sessions), false, 0);*/
 
         int itemToSelect = -1;

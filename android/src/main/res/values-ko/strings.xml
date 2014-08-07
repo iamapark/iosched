@@ -640,7 +640,7 @@
   </string>
 
     <!-- Short text label indicating a grouping of themes -->
-    <string name="themes">테마</string>
+    <string name="themes">과외종류</string>
 
     <!-- Text indicating the session is going to start in some number of minutes -->
     <string name="time_hint_about_to_start_min">이 세션은 <xliff:g id="minutes">%1$d</xliff:g>분 내에 시작합니다.</string>
@@ -671,7 +671,7 @@
     <string name="title_map">지도</string>
 
     <!-- Navigation bar text for viewing the user's schedule -->
-    <string name="title_my_schedule">내 일정</string>
+    <string name="title_my_schedule">선생님 리스트</string>
 
     <!-- Navigation bar text for viewing Office Hours -->
     <string name="title_office_hours">근무 시간</string>
@@ -701,7 +701,7 @@
     <string name="title_video_library">비디오 라이브러리</string>
 
     <!-- Label for exploration category which groups session topics -->
-    <string name="topics">주제</string>
+    <string name="topics">과목</string>
 
     <!-- Label for exploration category which groups session types -->
     <string name="types">유형</string>
