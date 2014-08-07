@@ -53,6 +53,7 @@ import com.google.samples.apps.iosched.sync.ConferenceDataHandler;
 import com.google.samples.apps.iosched.sync.SyncHelper;
 import com.google.samples.apps.iosched.ui.debug.DebugActionRunnerActivity;
 import com.google.samples.apps.iosched.ui.widget.MultiSwipeRefreshLayout;
+import com.google.samples.apps.iosched.ui.widget.ProfileActivity;
 import com.google.samples.apps.iosched.ui.widget.SwipeRefreshLayout;
 import com.google.samples.apps.iosched.util.*;
 
@@ -117,6 +118,9 @@ public abstract class BaseActivity extends Activity implements
     protected static final int NAVDRAWER_ITEM_SEPARATOR = -2;
     protected static final int NAVDRAWER_ITEM_SEPARATOR_SPECIAL = -3;
 
+
+    protected static final int NAVDRAWER_ITEM_PROFILE = 9;
+
     // titles for navdrawer items (indices must correspond to the above)
     private static final int[] NAVDRAWER_TITLE_RES_ID = new int[]{
             R.string.navdrawer_item_my_schedule,
@@ -127,7 +131,8 @@ public abstract class BaseActivity extends Activity implements
             R.string.navdrawer_item_sign_in,
             R.string.navdrawer_item_settings,
             R.string.navdrawer_item_experts_directory,
-            R.string.navdrawer_item_people_ive_met
+            R.string.navdrawer_item_people_ive_met,
+            R.string.navdrawer_item_profile
     };
 
     // icons for navdrawer items (indices must correspond to above array)
@@ -141,6 +146,7 @@ public abstract class BaseActivity extends Activity implements
             R.drawable.ic_drawer_settings,
             R.drawable.ic_drawer_experts,
             R.drawable.ic_drawer_people_met,
+            R.drawable.ic_drawer_profile
     };
 
     // delay to launch nav drawer item, to allow close animation to play
@@ -374,7 +380,8 @@ public abstract class BaseActivity extends Activity implements
         if (AccountUtils.hasActiveAccount(this)) {
             // Only logged-in users can save sessions, so if there is no active account,
             // there is no My Schedule
-            mNavDrawerItems.add(NAVDRAWER_ITEM_MY_SCHEDULE);
+            /*mNavDrawerItems.add(NAVDRAWER_ITEM_MY_SCHEDULE);*/
+            mNavDrawerItems.add(NAVDRAWER_ITEM_PROFILE);
         } else {
             // If no active account, show Sign In
             mNavDrawerItems.add(NAVDRAWER_ITEM_SIGN_IN);
@@ -385,13 +392,13 @@ public abstract class BaseActivity extends Activity implements
 
         // If the attendee is on-site, show Map on the nav drawer
         if (attendeeAtVenue) {
-            mNavDrawerItems.add(NAVDRAWER_ITEM_MAP);
+            /*mNavDrawerItems.add(NAVDRAWER_ITEM_MAP);*/
         }
         mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR);
 
         // If attendee is on-site, show the People I've Met item
         if (attendeeAtVenue) {
-            mNavDrawerItems.add(NAVDRAWER_ITEM_PEOPLE_IVE_MET);
+            /*mNavDrawerItems.add(NAVDRAWER_ITEM_PEOPLE_IVE_MET);*/
         }
 
         // If the experts directory hasn't expired, show it
@@ -401,10 +408,14 @@ public abstract class BaseActivity extends Activity implements
 
         // Other items that are always in the nav drawer irrespective of whether the
         // attendee is on-site or remote:
-        mNavDrawerItems.add(NAVDRAWER_ITEM_SOCIAL);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR_SPECIAL);
+        /*mNavDrawerItems.add(NAVDRAWER_ITEM_SOCIAL);*/
+        /*mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);*/
+        /*mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR_SPECIAL);*/
+
+
         mNavDrawerItems.add(NAVDRAWER_ITEM_SETTINGS);
+
+
 
         createNavDrawerItems();
     }
@@ -778,6 +789,10 @@ public abstract class BaseActivity extends Activity implements
                 break;
             case NAVDRAWER_ITEM_SETTINGS:
                 intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                break;
+            case NAVDRAWER_ITEM_PROFILE:
+                intent = new Intent(this, ProfileActivity.class);
                 startActivity(intent);
                 break;
             case NAVDRAWER_ITEM_VIDEO_LIBRARY:

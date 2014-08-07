@@ -80,7 +80,7 @@
 
     <application
         android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_ssamtong"
         android:logo="@drawable/action_ssamtong_logo"
         android:theme="@style/Theme.IOSched"
         android:hardwareAccelerated="true"
@@ -109,6 +109,9 @@
             android:name=".ui.SocialActivity"
             android:label="@string/navdrawer_item_social"
             android:theme="@style/Theme.IOSched.Social" />
+
+        <activity android:name=".ui.widget.ProfileActivity"
+            android:label="@string/navdrawer_item_profile" />
 
         <activity android:name=".ui.SessionLivestreamActivity"
             android:label="@string/session_livestream_title"

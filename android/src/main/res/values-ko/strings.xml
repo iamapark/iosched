@@ -80,7 +80,7 @@
     <string name="all_years">모든 년도</string>
 
     <!-- Name of the application, shown in the application's title bar. -->
-    <string name="app_name">구글 I/O 2014</string>
+    <string name="app_name">쌤통 2.0</string>
 
     <!-- Label on a button that is one possible answer to the question "Are you attending the
     conference in person in San Francisco or remotely via livestream?" -->
@@ -309,7 +309,7 @@
     <string name="navdrawer_item_experts_directory_a11y">전문가 디렉토리</string>
 
     <!-- Menu item to open the Explore screen [CHAR_LIMIT=20] -->
-    <string name="navdrawer_item_explore">탐색</string>
+    <string name="navdrawer_item_explore">과외 리스트</string>
 
     <!-- Accessibility description for menu item to open the Explore screen. -->
     <string name="navdrawer_item_explore_a11y">Google I/O 탐색</string>
@@ -334,10 +334,10 @@
 
     <!-- Menu item to open a screen that lists I/O related hashtags. Each hashtag, when clicked, will
     open Google+ stream of posts that uses the hashtag [CHAR_LIMIT=20] -->
-    <string name="navdrawer_item_social">소셜</string>
+    <string name="navdrawer_item_social">소셜1</string>
 
     <!-- Menu item to open a list of current and past I/O videos [CHAR_LIMIT=20] -->
-    <string name="navdrawer_item_video_library">비디오 라이브러리</string>
+    <string name="navdrawer_item_video_library">비디오 라이브러리1</string>
 
     <!-- Text indicator that appears below the user's name, showing that they are
     attending the conference in person in San Francisco. -->
