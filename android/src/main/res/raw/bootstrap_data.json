@@ -1493,7 +1493,7 @@
         "photoUrl": "http://th02.deviantart.net/fs71/PRE/f/2009/342/6/f/guitarist_and_railraod_3_by_JunKarlo.jpg",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
-        "tags": ["TOPIC_MUSIC"],
+        "tags": ["THEME_SCHOOL5","TOPIC_MUSIC"],
         "mainTag": "TOPIC_MUSIC",
         "id": "09dad573-bbe6-e311-b297-00155d5066dl",
         "color": "#8e24aa",
@@ -1510,7 +1510,7 @@
         "photoUrl": "http://1ta.co.kr/data/attach/201301/1_%EC%84%B8.png",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
-        "tags": ["TOPIC_MATH"],
+        "tags": ["THEME_SCHOOL4", "TOPIC_MATH"],
         "mainTag": "TOPIC_MATH",
         "id": "09dad573-bbe6-e311-b297-00155d5066dl1",
         "color": "#558b2f",
@@ -1527,7 +1527,7 @@
         "photoUrl": "http://www.britishcouncil.sg/sites/britishcouncil.sg/files/styles/bc-590x332/public/malaysia-screen_shot_2013-08-28_at_11.18.55_am.png",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
-        "tags": ["TOPIC_ENG"],
+        "tags": ["THEME_SCHOOL5", "TOPIC_ENG"],
         "mainTag": "TOPIC_ENG",
         "id": "09dad573-bbe6-e311-b297-00155d5066dl2",
         "color": "#795548",
@@ -1546,7 +1546,7 @@
         "photoUrl": "http://www.pagodastar.com/asset/static/design/site/tutor/242219/main_668x488.png",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
-        "tags": ["TOPIC_MATH"],
+        "tags": ["THEME_SCHOOL1", "THEME_SCHOOL2", "THEME_SCHOOL3", "TOPIC_MATH"],
         "mainTag": "TOPIC_MATH",
         "id": "19dad573-bbe6-e311-b297-00155d5a66dl2",
         "color": "#558b2f",
@@ -5035,120 +5035,42 @@
     },
     {
         "category": "THEME",
-        "name": "Develop",
+        "name": "초등학생",
         "abstract": "",
-        "tag": "THEME_DEVELOP",
+        "tag": "THEME_SCHOOL1",
         "original_id": "2ade1c01-8ed0-e311-b297-00155d5066d7",
+        "order_in_category": 1
+    },
+    {
+        "category": "THEME",
+        "name": "중학생",
+        "abstract": "",
+        "tag": "THEME_SCHOOL2",
+        "original_id": "c120fdc1-8dd0-e311-b297-00155d5066d7",
         "order_in_category": 2
     },
     {
         "category": "THEME",
-        "name": "Design",
+        "name": "고등학생",
         "abstract": "",
-        "tag": "THEME_DESIGN",
-        "original_id": "c120fdc1-8dd0-e311-b297-00155d5066d7",
-        "order_in_category": 1
-    },
-    {
-        "category": "TOPIC",
-        "name": "Location",
-        "color": "#795548",
-        "abstract": "",
-        "tag": "TOPIC_LOCATION",
-        "original_id": "20c32a95-d3d0-e311-b297-00155d5066d7",
-        "order_in_category": 8
-    },
-    {
-        "category": "TYPE",
-        "name": "Sessions",
-        "abstract": "",
-        "tag": "TYPE_SESSIONS",
-        "original_id": "08e12eae-a487-e311-84db-00155d5066d7",
-        "order_in_category": 1
-    },
-    {
-        "category": "TYPE",
-        "name": "'Box Talks",
-        "abstract": "",
-        "tag": "TYPE_BOXTALKS",
-        "original_id": "e7e8dc1b-d3d0-e311-b297-00155d5066d7",
-        "order_in_category": 4
-    },
-    {
-        "category": "TYPE",
-        "name": "Workshops",
-        "abstract": "",
-        "tag": "TYPE_WORKSHOPS",
-        "original_id": "09e12eae-a487-e311-84db-00155d5066d7",
-        "order_in_category": 5
-    },
-    {
-        "category": "TOPIC",
-        "name": "Performance",
-        "color": "#8e24aa",
-        "abstract": "",
-        "tag": "TOPIC_PERFORMANCE",
-        "original_id": "d472f7fb-3688-e311-84db-00155d5066d7",
-        "order_in_category": 11
-    },
-    {
-        "category": "TYPE",
-        "name": "Office Hours",
-        "abstract": "",
-        "tag": "TYPE_OFFICEHOURS",
-        "original_id": "00ca0d28-d3d0-e311-b297-00155d5066d7",
-        "order_in_category": 6
-    },
-    {
-        "category": "TYPE",
-        "name": "App Reviews",
-        "abstract": "",
-        "tag": "TYPE_APPREVIEWS",
-        "original_id": "c496b215-d3d0-e311-b297-00155d5066d7",
+        "tag": "THEME_SCHOOL3",
+        "original_id": "31335208-8ed0-e311-b297-00155d5066d7",
         "order_in_category": 3
-    },
-    {
-        "category": "TOPIC",
-        "name": "Growth",
-        "color": "#c3570b",
-        "abstract": "",
-        "tag": "TOPIC_GROWTH",
-        "original_id": "96a7df80-d3d0-e311-b297-00155d5066d7",
-        "order_in_category": 7
-    },
-    {
-        "category": "TOPIC",
-        "name": "UX",
-        "color": "#00897b",
-        "abstract": "",
-        "tag": "TOPIC_UX",
-        "original_id": "f2a54986-3688-e311-84db-00155d5066d7",
-        "order_in_category": 14
-    },
-    {
-        "category": "TOPIC",
-        "name": "Monetization",
-        "color": "#0d904f",
-        "abstract": "",
-        "tag": "TOPIC_MONETIZATION",
-        "original_id": "0eedf9a6-3688-e311-84db-00155d5066d7",
-        "order_in_category": 10
-    },
-    {
-        "category": "TOPIC",
-        "name": "Wearables",
-        "color": "#ad1457",
-        "abstract": "",
-        "tag": "TOPIC_WEARABLES",
-        "original_id": "a1305602-3788-e311-84db-00155d5066d7",
-        "order_in_category": 15
     },
     {
         "category": "THEME",
-        "name": "Distribute",
+        "name": "대학생",
         "abstract": "",
-        "tag": "THEME_DISTRIBUTE",
-        "original_id": "41335208-8ed0-e311-b297-00155d5066d7",
-        "order_in_category": 3
+        "tag": "THEME_SCHOOL4",
+        "original_id": "43325208-8ed0-e311-b297-00155d5066d7",
+        "order_in_category": 4
+    },
+    {
+        "category": "THEME",
+        "name": "일반",
+        "abstract": "",
+        "tag": "THEME_SCHOOL5",
+        "original_id": "41335s08-8ed0-e311-b297-00155d5066d7",
+        "order_in_category": 5
     }
 ]}
