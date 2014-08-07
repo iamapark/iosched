@@ -671,7 +671,7 @@
     <string name="title_map">지도</string>
 
     <!-- Navigation bar text for viewing the user's schedule -->
-    <string name="title_my_schedule">내 일정</string>
+    <string name="title_my_schedule">선생님 리스트</string>
 
     <!-- Navigation bar text for viewing Office Hours -->
     <string name="title_office_hours">근무 시간</string>

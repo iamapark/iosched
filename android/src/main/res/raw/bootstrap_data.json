@@ -1488,13 +1488,9 @@
 ], "partners": [], "sessions": [
     {
         "speakers": [],
-        "description": "안녕하세요 인제대학교 의예과에 재학중인 학생입니다! " +
-                        "2012년 수능에서 언수외 각각 백분위 99퍼센트 받았구요." +
-"                       수시에서 내신전형으로 합격했기 때문에 내신도 철저하게 관리해드릴수 있습니다." +
-"                       중고등학생일때 공부나 성적 때문에 고민 많이 해봤기 때문에 학생에게 큰 도움 될수 있을 거라생각합니다^^" +
-"                       평일에 김해지역에서 과외원하시는 학생분 찾고 있어요정확한 횟수나 급여는 협의후 정했으면 합니당 연락부탁드려요~",
+        "description": "안녕하세요 인제대학교 의예과에 재학중인 학생입니다!",
         "title": "언어, 수리, 외국어 전 과목 집중 지도",
-        "photoUrl": "http://www.yanidel.com/High%20Res/auto%20painter%20HR.jpg",
+        "photoUrl": "http://de8pxn7d64cob.cloudfront.net/teacher-pics/300x300/4b8e07f85093cf198fab653804a4843ad954baa9.jpg",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
         "tags": ["THEME_SCHOOL3", "TOPIC_MATH", "TOPIC_ENG", "TOPIC_LANG"],
@@ -1510,17 +1506,16 @@
     {
         "speakers": [],
         "title": "입시미술 및 일반인 회화까지~~!!",
-        "description": "현재 서울미대 4학년 재학중인 미대생입니다. 입시미술 상담부터 전반적인 입시미술 지도를 해드릴 수 있습니다. <br>" +
-"                 입시미술외에도 미술을 배워보고 싶은 일반/직장인 분들도 언제든지 대환영입니다.",
-        "photoUrl": "http://www.yanidel.com/High%20Res/auto%20painter%20HR.jpg",
+        "description": "현재 서울미대 4학년 재학중인 미대생입니다. 입시미술 상담부터 전반적인 입시미술 지도를 해드릴 수 있습니다. <br>입시미술외에도 미술을 배워보고 싶은 일반/직장인 분들도 언제든지 대환영입니다.",
+        "photoUrl": "http://amble.com/ambler/wp-content/uploads/2011/07/artist.jpg",
         "url": "https://www.google.com/events/io/schedule/session/09dad573-bbe6-e311-b297-00155d5066d7",
         "startTimestamp": "2014-06-26T17:00:00Z",
         "tags": ["THEME_SCHOOL3", "THEME_SCHOOL4", "TOPIC_ART"],
         "mainTag": "TOPIC_ART",
         "id": "09dad573-bbe6-e311-b217-00155d5066dl",
-        "color": "#FF7256",
+        "color": "#FFD700",
         "room": "dddsandbox",
-        "hashtag": "music",
+        "hashtag": "art",
         "isLivestream": false,
         "endTimestamp": "2014-06-30T18:00:00Z",
         "captionsUrl": ""
@@ -5048,7 +5043,7 @@
     {
         "category": "TOPIC",
         "name": "언어",
-        "color": "#556B2F",
+        "color": "#FF7256",
         "abstract": "",
         "tag": "TOPIC_LANG",
         "original_id": "5823cc6e-fde0-e311-b297-00155d506wk7",
@@ -5084,7 +5079,7 @@
     {
         "category": "TOPIC",
         "name": "미술",
-        "color": "#FF7256",
+        "color": "#FFD700",
         "abstract": "",
         "tag": "TOPIC_ART",
         "original_id": "5820cc6e-fde0-e311-b297-00155d506wk7",
