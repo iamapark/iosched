@@ -80,7 +80,7 @@
 
     <application
         android:label="@string/app_name"
-        android:icon="@drawable/icon_ssamtong"
+        android:icon="@drawable/ic_ssamtong"
         android:logo="@drawable/action_ssamtong_logo"
         android:theme="@style/Theme.IOSched"
         android:hardwareAccelerated="true"
